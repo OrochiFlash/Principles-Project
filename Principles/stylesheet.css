@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Coming+Soon');
+
+/* {
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Coming Soon', cursive;
+}*/
+
+html, body, #MainBG {
+	top: 0;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	-moz-height: 100%;
+	-moz-width: 100%;
+	-webkit-height:100%;
+	-webkit-width:100%;
+	-o-height:100%;
+	-o-width:100%;
+}
+
+html {
+	background-image: url(abstract-1851071_1920.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+}
+
+h3 {
+	margin: 3px 0px 3px 0px;
+	padding: 10px 0px 10px 0px; 
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em;
+	text-align: center;
+	width: 300px;
+}
+
+#MainBG {
+	outline-style: double;
+    outline-color: green;
+    outline-width: 3px;
+}
+
+.itemContent {
+	display: block;
+	width: 280px;
+	height: 580px;
+	padding: 10px;
+	margin-top: 10px;
+	font-family: 'Coming Soon', cursive;
+	color: rgba(0,0,0,0.0);
+}
+
+.itemContentClick {	
+	display: block;
+	width: 280px;
+	height: 580px;
+	margin: 0;
+	padding: 10px;
+	color: #ffffff;
+	font-family: 'Coming Soon', cursive;
+	font-size: 1em;
+	background-color: rgba(0,0,0,0.7);
+}
+
+#accordion {
+	margin: 0 auto;
+	width: 300px;
+	overflow: show;
+}
+
+#accordion div {
+	margin-bottom: 10px;
+	width: 300px;
+	height: 600px;
+	overflow: hidden;
+}
+
+#agile {
+	background-image: url(waterfall-1082109_640.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#consistency {
+	background-image: url(fall-1432252_640.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#patience {
+	background-image: url(mountain-941507_640.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#difficult {
+	background-image: url(fog-1535201_640.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#initiate {
+	background-image: url(weather-768460_640.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#kind {
+	background-image: url(love-1328564_640.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#excuses {
+	background-image: url(iceland-1790985_640.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#healthy {
+	background-image: url(beach-1846981_640.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#dither {
+	background-image: url(autumn-landscape-1082286_640.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#plan {
+	background-image: url(person-1030884_640.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Way of Life Mixtape</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="jquery-3.1.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+  		$( function() {
+    		$( "#accordion" ).accordion({
+      			collapsible: true
+    		});
+  		} );
+  		$( function() {
+    		$( ".itemContent" ).on( "click", function() {
+      		$( ".itemContent" ).toggleClass( "itemContentClick", 1000 );
+    		});
+  		} );
+  		$( function() {
+    		$( ".itemTitle" ).on( "click", function() {
+      		$( ".itemContent" ).removeClass( "itemContentClick" );
+    		});
+  		} );
+  </script>
+</head>
+<body>
+	<div id="MainBG">
+		<div id="accordion"> 
+		<h3 class="itemTitle">Agile</h3>
+  		<div id="agile">
+    		<p class="itemContent">
+    			Placeholder nuggets of gold. Nice nuggets of gold. Placeholder uggets of gold. Tasty nuggets of gold. Ten nuggets of gold. Chicken nuggets of gold.
+    			Placeholder nuggets of gold. Heavy nuggets of gold. Big nuggets of gold.  
+    		</p>
+  		</div>
+  		<h3 class="itemTitle">Consistency</h3>
+  		<div id="consistency">
+    		<p class="itemContent">
+    		Placeholder nuggets of gold. Nice nuggets of gold. Placeholder uggets of gold. Tasty nuggets of gold. Ten nuggets of gold. Chicken nuggets of gold.
+    			Placeholder nuggets of gold. Heavy nuggets of gold. Big nuggets of gold.  
+    		</p>   
+  		</div>
+  		<h3 class="itemTitle">Patience</h3>
+  		<div id="patience">
+    		<p class="itemContent">
+    			Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. 
+    		</p>    
+  		</div>
+  		<h3 class="itemTitle">Do Difficult Things</h3>
+  		<div id="difficult">
+    		<p class="itemContent">
+    			Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. 
+    		</p>
+  		</div>
+  		<h3 class="itemTitle">Initiate</h3>
+  		<div id="initiate">
+     		<p class="itemContent">
+    			Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. 
+    		</p>  
+  		</div>
+  		<h3 class="itemTitle">Be Kind</h3>
+  		<div id="kind">
+    		<p class="itemContent">
+    			Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. 
+    		</p>    
+  		</div>
+  		<h3 class="itemTitle">No Excuses</h3>
+  		<div id="excuses">
+    		<p class="itemContent">
+    			Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. 
+    		</p>
+  		</div>
+  		<h3 class="itemTitle">Healthy Environment</h3>
+  		<div id="healthy">
+    		<p class="itemContent">
+    			Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. 
+    		</p>  		</div>
+  		<h3 class="itemTitle">Do Not Dither</h3>
+  		<div id="dither">
+    		<p class="itemContent">
+    			Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. 
+    		</p>
+  		</div>
+  		<h3 class="itemTitle">Make a Plan</h3>
+  		<div id="plan">
+    		<p class="itemContent">
+    			Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. Placeholder nuggets of gold. 
+    		</p>
+  		</div>
+	</div>
+	</div>
+</body>
+</html>
